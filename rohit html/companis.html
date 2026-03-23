@@ -1,0 +1,162 @@
+
+<html>
+
+<head>
+    <title>Companies - Campus Placement Portal</title>
+    <style>
+	.links{ display:flex; align-items:center; justify-content:space-between; }
+
+	li { list-style:none; display:inline-block; }
+
+	li a{ color: white; font-size; 18px; font-weight:bold; margin-right:25px; }
+
+	button{ background-color:black; margin-left:10px; border-radius:10px; padding:10px; width:100px;}
+        
+        body { margin: 0; font-family: Georgia, serif; background-color: #f4f7fb; color: #222; }
+	
+	.page-header { text-align: center; padding: 40px 20px 10px; }
+
+        .page-header h1 { font-size: 32px;  color: #1a3c6e; margin-bottom: 6px; }
+
+        .page-header p { color: #555; font-size: 15px; }
+
+        .card-grid {  display: flex;  flex-wrap: wrap; gap: 24px; padding: 30px 40px;  justify-content: center; }
+        
+        .card { background-color: #ffffff; border-radius: 10px; padding: 24px; width: 240px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08); border-top: 5px solid #1a3c6e; }
+
+        .card h2 {    font-size: 18px;    color: #1a3c6e;   margin: 0 0 12px 0; }
+
+        .card p { font-size: 14px;  margin: 5px 0;  color: #444; font-family: Arial, sans-serif; }
+
+        .status {  display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-family: Arial, sans-serif; font-weight: bold; margin-top: 8px; }
+
+        .status-open {  background-color: #d4edda; color: #1a6630; }
+
+        .status-soon { background-color: #fff3cd; color: #856404;  }
+
+        .status-closed {  background-color: #f8d7da; color: #721c24;    }
+ 
+        .btn { margin-top: 14px; display: block; width: 100%;  padding: 9px 0; background-color: #1a3c6e; color: white;   border: none;  border-radius: 5px; font-size: 14px; 
+              cursor: pointer; font-family: Arial, sans-serif;   }
+
+        .btn-notify {  background-color: #e8f0fe;  color: #1a3c6e;  }
+
+        .btn-disabled { background-color: #ccc;   color: #666; cursor: not-allowed; }
+   
+        footer{ background-color:#0b3d91; color:white; text-align:center; padding:15px; bottom:0; width:100%;  }
+
+        }
+    </style>
+</head>
+
+<body>
+	<nav style="background: #0b3d91; font-family:calibri; padding:0,15px;">
+		<div class="links">
+			<div style="font-size:50px; font-weight:600; color:white;"> Placement Portal </div>
+			<ul>
+				<li> <a href="home.html">Home </a> </li>
+				<li> <a href="companis.html">Companis </a> </li>
+				<li> <a href="records.html">Placement Records </a> </li>
+				<li> <a href="results.html">Results</a> </li>
+				<li> <a href="contact.html">contact </a> </li>
+				<li> <a href="about.html">About </a> </li>
+				<a href="login.html">    <button style="color: white; font-size; 18px; font-weight: bold;"> Login </button> </a>
+				<a href="register.html"> <button style="color: white; font-size; 18px; font-weight: bold;"> Register </button> </a> 
+			</ul>
+		</div>
+	</nav>
+
+
+
+    <div class="page-header">
+        <h1>Recruiting Companies</h1>
+        <p>List of companies visiting our campus for placements this year.</p>
+    </div>
+
+    <div class="card-grid">
+
+        <div class="card">
+            <h2>Infosys</h2>
+            <p>Role: Systems Engineer</p>
+            <p>Package: 3.6 LPA</p>
+            <p>Min CGPA: 6.0</p>
+            <p>Drive Date: 12 Apr 2025</p>
+            <span class="status status-open">Open</span>
+            <button class="btn">Apply Now</button>
+        </div>
+
+        <div class="card">
+            <h2>TCS</h2>
+            <p>Role: Assistant System Engineer</p>
+            <p>Package: 3.5 LPA</p>
+            <p>Min CGPA: 6.0</p>
+            <p>Drive Date: 18 Apr 2025</p>
+            <span class="status status-open">Open</span>
+            <button class="btn">Apply Now</button>
+        </div>
+
+        <div class="card">
+            <h2>Wipro</h2>
+            <p>Role: Project Engineer</p>
+            <p>Package: 3.5 LPA</p>
+            <p>Min CGPA: 6.5</p>
+            <p>Drive Date: 22 Apr 2025</p>
+            <span class="status status-open">Open</span>
+            <button class="btn">Apply Now</button>
+        </div>
+
+        <div class="card">
+            <h2>Cognizant</h2>
+            <p>Role: Programmer Analyst</p>
+            <p>Package: 4.0 LPA</p>
+            <p>Min CGPA: 6.5</p>
+            <p>Drive Date: 30 Apr 2025</p>
+            <span class="status status-soon">Coming Soon</span>
+            <button class="btn btn-notify">Notify Me</button>
+        </div>
+
+        <div class="card">
+            <h2>L&T Technology</h2>
+            <p>Role: Graduate Engineer</p>
+            <p>Package: 4.5 LPA</p>
+            <p>Min CGPA: 7.0</p>
+            <p>Drive Date: 08 Apr 2025</p>
+            <span class="status status-open">Open</span>
+            <button class="btn">Apply Now</button>
+        </div>
+
+        <div class="card">
+            <h2>HCL Technologies</h2>
+            <p>Role: Technical Support Engineer</p>
+            <p>Package: 3.5 LPA</p>
+            <p>Min CGPA: 6.0</p>
+            <p>Drive Date: 02 Apr 2025</p>
+            <span class="status status-open">Open</span>
+            <button class="btn">Apply Now</button>
+        </div>
+
+        <div class="card">
+            <h2>Mahindra</h2>
+            <p>Role: Junior Engineer</p>
+            <p>Package: 4.2 LPA</p>
+            <p>Min CGPA: 6.5</p>
+            <p>Drive Date: 20 Mar 2025</p>
+            <span class="status status-closed">Closed</span>
+            <button class="btn btn-disabled" disabled>Drive Closed</button>
+        </div>
+
+        <div class="card">
+            <h2>Bajaj Finserv</h2>
+            <p>Role: Business Analyst</p>
+            <p>Package: 5.5 LPA</p>
+            <p>Min CGPA: 7.0</p>
+            <p>Drive Date: 05 May 2025</p>
+            <span class="status status-soon">Coming Soon</span>
+            <button class="btn btn-notify">Notify Me</button>
+        </div>
+
+    </div>
+
+	<footer > <p>© 2026 ICRE Placement Portal. All Rights Reserved.</p> <p>Contact: placement@gmail.com | Phone: +91 985294xxxx</p> </footer>	
+</body>
+</html>

@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title> login </title>
+<style>
+		.links{ display:flex; align-items:center; justify-content:space-between; }
+
+		li { list-style:none; display:inline-block; }
+
+		li a{ color: white; font-size; 18px; font-weight:bold; margin-right:25px; }
+
+		button{ background-color:black; margin-left:10px; border-radius:10px; padding:10px; width:100px;}
+
+		.bgbox{ width:300px; background:white; padding:30px; border-radius:10px; text-align:center; }
+
+		.input-box{ margin:10px 0; }
+
+		.input-box input{  width:100%; padding:8px;  border:1px solid #ccc; border-radius:5px; }
+
+		.btn{ width:100%; padding:10px; border:none; background:#2563eb; color:white; font-size:16px; border-radius:5px;  }
+
+		footer{ background-color:#0b3d91; color:white; text-align:center; padding:15px; bottom:0; width:100%; position:fixed; }
+
+</style>
+</head>
+<body style="margin:0; padding:0;background:#1e3a8a;">
+	<nav style="background: #0b3d91; font-family:calibri; padding:0,15px;">
+		<div class="links">
+			<div style="font-size:50px; font-weight:600; color:white;"> Placement Portal </div>
+			<ul>
+				<li> <a href="home.html">Home </a> </li>
+				<li> <a href="companis.html">Companis </a> </li>
+				<li> <a href="records.html">Placement Records </a> </li>
+				<li> <a href="results.html">Results</a> </li>
+				<li> <a href="contact.html">contact </a> </li>
+				<li> <a href="about.html">About </a> </li>
+				<a href="login.html">    <button style="color: white; font-size; 18px; font-weight: bold;"> Login </button> </a>
+				<a href="register.html"> <button style="color: white; font-size; 18px; font-weight: bold;"> Register </button> </a> 
+			</ul>
+		</div>
+	</nav>
+<div style="display:flex; justify-content:center; align-items:center;">  
+	<div class="bgbox">
+		<form>
+			<h1 style=" margin-bottom:20px;"> Login</h1>
+
+			<div class="input-box">
+			<input type="text" placeholder="Username" required>
+			</div>
+
+			<div class="input-box">
+			<input type="password" placeholder="Password" required>
+			</div>
+
+			<div>
+			<label><input type="checkbox"> Remember me </label>			
+			</div>
+
+			<button type="submit" class="btn"> login </button>
+
+			<div>
+			<p> Don't have an account? <a href="register.html"> Register </a> 
+			</div>
+		</form>
+	</div>
+</div>
+	<footer > <p>© 2026 ICRE Placement Portal. All Rights Reserved.</p> <p>Contact: placement@gmail.com | Phone: +91 985294xxxx</p> </footer>	
+</body>
+</html
