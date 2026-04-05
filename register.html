@@ -1,21 +1,32 @@
-<html>
 <head>
-<title>College Enrollment Form</title>
+<title>Campus Placement Portal - Register</title>
 <style>
-		.links{ display:flex; align-items:center; justify-content:space-between; }
+	* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif;}
 
-		li { list-style:none; display:inline-block; }
+	.links{ display:flex; align-items:center; justify-content:space-between; }
 
-		li a{ color: white; font-size; 18px; font-weight:bold; margin-right:25px; }
+	li { list-style:none; display:inline-block; }
 
-		button{ background-color:black; margin-left:10px; border-radius:10px; padding:10px; width:100px; color:white;}
+	li a{ color: white; font-size; 18px; font-weight:bold; margin-right:25px; }
 
-		footer{ background-color:#0b3d91; color:white; text-align:center; padding:15px; bottom:0; width:100%;  }
+	button{ background-color:black; margin-left:10px; border-radius:10px; padding:10px; width:100px; color:white;}
 
+	footer{ background-color:#0b3d91; color:white; text-align:center; padding:15px; bottom:0; width:100%;}
+
+	.left { width: 25%; background: linear-gradient(to bottom right, #1c3d72, #0d2b5c); color: white; padding: 30px;}
+
+	.right { width: 75%; background: #f5f5f5; display: flex; justify-content: center; align-items: center;}
+
+	.form-box { width: 60%; background: white; padding: 25px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);}
+
+	.form-row { display: flex; gap: 10px;}
+
+	input, select {  width: 100%; padding: 10px; margin: 8px 0; border-radius: 5px;border: 1px solid #ccc; }
+
+	.formbut { width: 100%; padding: 12px; background: #0d2b5c; color: white; border: none; border-radius: 5px; margin-top: 10px; cursor: pointer;}
 </style>
 </head>
-
-<body style="margin:0; padding:0;">
+<body>
 	<nav style="background: #0b3d91; font-family:calibri; padding:0,15px;">
 		<div class="links">
 			<div style="font-size:50px; font-weight:600; color:white;"> Placement Portal </div>
@@ -32,71 +43,65 @@
 		</div>
 	</nav>
 
+<div style=" display: flex;  height: 90vh;">
+    <div class="left">
+        <h2 style="margin-bottom: 15px;">  Why Register?  </h2>
+        <p style="font-size: 14px; margin-bottom: 15px;">Start your placement journey with us.</p>
+        <ul>
+            <li >✔ Job Opportunities</li><br>
+            <li >✔ Internship Access</li><br>
+            <li >✔ Placement Drives</li><br>
+            <li >✔ Track Applications</li><br>
+        </ul>
+    </div>
 
+    <div class="right">
+        <div class="form-box">
+            <h2 style="margin-bottom: 15px;">Student Registration</h2>
 
+            <form>
+                <div class="form-row">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                </div>
 
-<a>
-<h1 style="background-color:#002b5c;color:white;padding:10px;"> Campus placement portal. Student registration </h1>
-</a>
-<p>Complete the registration form with attention to detail</p>
+                <div class="form-row">
+                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="Confirm Password" required>
+                </div>
 
-<form>
+                <div class="form-row">
+                    <input type="text" placeholder="College Name" required>
+                    <select required>
+                        <option>Select Branch</option>
+                        <option>Computer</option>
+                        <option>IT</option>
+                        <option>Mechanical</option>
+                        <option>Civil</option>
+                    </select>
+                </div>
 
-<h3>Full Name</h3>
-First Name:
-<input type="text" name="fname">
-Last Name:
-<input type="text" name="lname"><br><br>
+                <div class="form-row">
+                    <select required>
+                        <option>Passing Year</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                    </select>
+                    <input type="text" placeholder="Mobile Number" required>
+                </div>
 
-<h3>Address</h3>
-Street Address:<br>
-<input type="text" name="street" size="50"><br><br>
+                <input type="file">
+                <p style="font-size: 13px;  margin-top: 10px;">
+			<input type="checkbox"> I agree to Terms & Conditions
+                </p>
+                <button class="formbut">REGISTER NOW</button>
+            </form>
+        </div>
+    </div>
+</div>
 
-City:
-<input type="text" name="city">
-
-State/Province:
-<input type="text" name="state"><br><br>
-
-<h3>Birth Date</h3>
-Date:
-<input type="number" name="date" min="1" max="31">
-
-Month:
-<input type="number" name="month" min="1" max="12">
-
-Year:
-<input type="number" name="year"><br><br>
-
-<h3>Gender</h3>
-<input type="radio" name="gender"> Male
-<input type="radio" name="gender"> Female
-<input type="radio" name="gender"> N/A<br><br>
-
-<h3>Student Number</h3>
-<input type="text" name="phone" size="40"><br><br>
-
-<h3>Student Email</h3>
-<input type="email" name="email" size="40"><br><br>
-<h3>Institute name</h3>
-<input type="name" name="name" size="40"><br><br>
-
-
-<h3>Additional Comments</h3>
-<textarea rows="4" cols="50"></textarea><br><br>
-
-<h3>Which skill you have</h3>
-<input type="checkbox"> C <br>
-<input type="checkbox"> C++<br>
-<input type="checkbox"> Java <br><br>
-
-<button>submit</button>
-
-</form>
-
-	<footer > <p>© 2026 ICRE Placement Portal. All Rights Reserved.</p> <p>Contact: placement@gmail.com | Phone: +91 985294xxxx</p> </footer>	
-
-
+<footer > <p>© 2026 ICRE Placement Portal. All Rights Reserved.</p> <p>Contact: placement@gmail.com | Phone: +91 985294xxxx</p> </footer>	
 
 </body>
 </html>
