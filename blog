@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>My Blog</title>
+    <style>
+        body { font-family: Arial;  margin: 40px; background: #f4f4f4;}
+        .post {  background: white;  padding: 15px;  margin-bottom: 20px;  border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+<h1>My Blog</h1>
+
+<div class="post">
+    <h2>My First Blog</h2>
+    <p>This is my first post on GitHub blog 🚀</p>
+</div>
+
+<div class="post">
+    <h2>Learning Coding</h2>
+    <p>I am learning C, HTML, and building projects.</p>
+</div>
+
+</body>
+</html>
